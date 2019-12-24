@@ -25,5 +25,15 @@ private List<Contact> contacts=new ArrayList<>();
         contacts.add(contact);
         contact=new Contact("Harun Or Rashid","01783098708",R.drawable.ic_man);
         contacts.add(contact);
+        contacts.add(contact);
+        contact=new Contact("Harun Or Rashid","01783098708",R.drawable.ic_man);
+        contacts.add(contact);
+        contact=new Contact("Harun Or Rashid","01783098708",R.drawable.ic_man);
+        contacts.add(contact);
+        contacts.add(contact);
+        contact=new Contact("Harun Or Rashid","01783098708",R.drawable.ic_man);
+        contacts.add(contact);
+        contact=new Contact("Harun Or Rashid","01783098708",R.drawable.ic_man);
+        contacts.add(contact);
     }
 }

@@ -2,6 +2,7 @@ package com.example.recyclerpractice;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,8 +51,12 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ViewHold
             Contact contact=contacts.get(position);
            TextView name=holder.cName;
            name.setText(contact.getName());
-          holder.cPhone.setText(contact.getPhone());
-          holder.cImage.setImageResource(contact.getImage());
+//          holder.cPhone.setText(contact.getPhone());
+//          holder.cImage.setImageResource(contact.getImage());
+        TextView phone=holder.cPhone;
+        phone.setText(contact.getPhone());
+        ImageView image=holder.cImage;
+        image.setImageResource(contact.getImage());
 
 
     }
